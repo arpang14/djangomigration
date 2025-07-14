@@ -3,3 +3,4 @@ If you want to roll back all migrations for an app (resetting it to an unmigrate
 
 
 python manage.py migrate app_name zero
+In Django, you can execute custom Python code during a migration by using the RunPython operation. This allows you to write Python code that runs as part of the migration process, such as data migrations or other custom logic.
